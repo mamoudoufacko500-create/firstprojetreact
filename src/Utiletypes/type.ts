@@ -9,3 +9,9 @@ export type ServicesItem = {
   sous_titre: string;
   description: string;
 };
+
+export type Citation = {
+  texte: string;
+  auteur: string;
+  photo?: string;
+};

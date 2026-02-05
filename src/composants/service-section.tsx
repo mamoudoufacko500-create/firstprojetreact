@@ -14,7 +14,7 @@ export default function Servicesection() {
             <img
               src={item.Image}
               alt={item.sous_titre}
-              className="w-full h-[70%] object-cover mt-4"
+              className="w-full h-[70%] object-cover mt-4 "
             />
             <h3 className="text-2xl font-semibold">{item.sous_titre}</h3>
             <p>{item.description}</p>

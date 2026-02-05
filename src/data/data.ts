@@ -1,4 +1,4 @@
-import type { menuItem, ServicesItem } from "../Utiletypes/type";
+import type { Citation, menuItem, ServicesItem } from "../Utiletypes/type";
 
 export const menu: menuItem[] = [
   { title: "Accueil", link: "#" },
@@ -28,23 +28,26 @@ export const Services: ServicesItem[] = [
   },
 ];
 
-export const travel = [
+
+
+
+
+export const citations: Citation[] = [
   {
-    id: 1,
-    title: "Pour découvrir",
-    description: "Vos objects publicitaires",
-    color: "bg-blue-600",
+    texte: " « Place ta confiance en Allah, Il te suffira. » ",
+    auteur: "Ibn Taymiyya",
   },
   {
-    id: 2,
-    title: "Pour découvrir",
-    description: "Vos objects publicitaires",
-    color: "bg-yellow-600",
+    texte: " « La patience est la clé de la délivrance. » ",
+    auteur: "Umar Ibn Al-Khattab",
   },
   {
-    id: 3,
-    title: "Pour découvrir",
-    description: "Vos objects publicitaires",
-    color: "bg-red-600",
+    texte: " « Celui qui craint Allah, Il lui donnera une issue. » ",
+    auteur: "Coran 65:2",
+  },
+  {
+    texte: " « Originales et dotées d’une compréhension innée  des besoins de leurs clients, l’équipe de Love  Nature est toujours un plaisir de travailler. »",
+    auteur: "Jane Miller",
+    photo: "avatar_on_home.png",
   },
 ];

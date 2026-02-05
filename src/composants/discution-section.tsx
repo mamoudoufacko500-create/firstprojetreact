@@ -1,4 +1,5 @@
 import React from "react";
+import UserButton from "./User-Button";
 
 export default function Discutionsection() {
   return (
@@ -11,9 +12,7 @@ export default function Discutionsection() {
           questions.
         </p>
       </div>
-      <button className="bg-yellow-300 rounded-xl px-5 py-3 text-gray-500 text-sm">
-        <a href="#">Parlons-en maintenant</a>
-      </button>
+       <UserButton text='Parlons-en maintenant' />
     </section>
   );
 }

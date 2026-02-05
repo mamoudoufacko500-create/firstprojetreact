@@ -1,5 +1,6 @@
 import React from 'react'
 import { menu } from '../data/data'
+import UserButton from './User-Button'
 
 export default function Herosection() {
   return (
@@ -34,7 +35,7 @@ export default function Herosection() {
                       <h1 className="font-bold text-4xl">Nous aimons tous <br /><span className="text-8xl">Nature</span></h1>
                       <p>Regarde profondément dans la nature, et tu comprendras <br /> tout mieux.</p>
                      </div>
-                     <button className="bg-yellow-300 rounded-xl px-5 py-3 text-gray-500 text-sm"><a href="#">Commencez</a></button>
+                    <UserButton text='Commencer' />
                  </section>
                    </div>
                  </section>

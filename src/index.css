@@ -4,3 +4,7 @@
 @theme{
     --font-display:  "Dancing Script", cursive;
 }
+
+.container{
+    @apply max-w-7xl mx-auto p-4;
+}
